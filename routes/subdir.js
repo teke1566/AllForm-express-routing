@@ -1,20 +1,7 @@
 const path = require("path");
 const express = require("express");
 const router = express.Router();
-// router.get('/',(req,res)=>{
-//     res.send("hello wold")
-// })
-// router.get('/', (req, res) => {
-//    res.sendFile(path.join(__dirname, '..', 'login', 'login.html'))
-//  //  res.send("hello world")
-// });
-// router.get('/getdata',(req,res)=>{
-//     res.send("username"+req.query.username+""+"password"+req.query.password)
-// })
-// router.post('/postdata',(req,res)=>{
-//     console.log(req.body.username+""+req.body.password)
-//     res.redirect("back")
-// })
+
 let fruits=["banana","mango"]
 let credentials=[{username:'teke',password:1234},{username:'mese',password:234}]
 router.get('/',(req,res,next)=>{

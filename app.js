@@ -6,7 +6,7 @@ app.listen(80, () => {
     console.log('Your Server is running on 80');
 })
 
-//Read the parameters from post request
+//Read the parameters from post requesting
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
